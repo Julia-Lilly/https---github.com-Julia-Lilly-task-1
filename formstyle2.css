@@ -1,0 +1,65 @@
+body
+ { background-color: #ffeadb;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight:bold;
+  color:#385252;
+}
+
+input[type=text],input[type=tel], input[type=email], select, textarea 
+{
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #679b9b;
+    border-radius: 5px;
+    background: #f7c5a8;
+    box-shadow:5px 5px grey; 
+} 
+label {
+    display: inline-block;
+    padding: 12px 12px 12px 0;
+  }
+input[type=submit] {
+    background-color:  #679b9b;
+    padding: 12px 20px;
+    float: right;
+    margin-top: 10px;
+    color:#385252;
+    font-weight:bolder;
+  }
+  
+  input[type=submit]:hover {
+    background-color:#f7c5a8;
+    cursor: pointer;
+  }
+  .req
+  {color: red
+
+  }
+
+.col1 {
+    float: left;
+    width: 35%;
+    margin-top: 6px;
+
+  }
+  .col2 {
+    float: left;
+    width: 65%;
+    margin-top: 6px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .container {
+    background-color:#ff9a76 ;
+     margin: 0 auto;
+     width: 500px;
+     height: auto;
+     padding: 25px 50px;
+     border: 2px solid #679b9b;
+     font-weight:bold;
+}

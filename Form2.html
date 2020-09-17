@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html
+<head>
+    <meta charset="utf-8">
+    <title><Form></title>
+        <link rel="stylesheet" type="text/css" href="formstyle2.css" />
+</head>
+<body>
+    <div class="container">
+    <form action="*" method="GET" autocomplete="on">
+            <div class="row">
+                <div class="col1">
+            <label for="company">Company:<span class="req">*</span></label>
+                </div>
+                <div class="col2">
+            <input type="text" id="company" name="company">
+            </div>
+                </div>
+            <div class="row">
+                <div class="col1">
+            <label for="name">First name:<span class="req">*</span></label>
+                 </div>
+                 <div class="col2">
+            <input type="text" id="name" name="name">
+                 </div>
+            </div>
+            <div class="row">
+                <div class="col1">
+                <label for="surname">Surname:<span class="req">*</span></label>
+                </div>
+                <div class="col2">
+                <input type="text" id="surname" name="surname">
+                </div>
+            </div>
+            <div clas="row">
+                <div class="col1">
+                <label for="mail">Email Address:<span class="req">*</span></label>
+                </div>
+                <div class="col2">
+                <input type="email" id="mail" name="mail">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col1">
+                <label for="title">Title:<span class="req">*</span></label>
+                </div>
+                <div class="col2">
+                <input type="text" id="title" name="title">
+                </div>
+             </div>
+             <div class="row">
+                <div class="col1">
+                 <label for="phone">Phone<span class="req">*</span></label>
+                 </div>
+                 <div class="col2">
+                 <input type="tel" id="phone" name="phone">
+                 </div>
+            </div>
+            <div class="row">
+                <div class="col1">
+                <label for="cancel">Cancel registration:</label>
+                </div>
+                <div class="col2">
+                <input type="checkbox" id="cancel" name="cancel">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col1">
+                <label for="date">252 Training Session:<span class="req">*</span></label>
+                </div>
+                <div class="col2">
+            <select id="date" name="date">
+                <option value=" " disabled selected>--Select a date--</option>
+                <option value="January15">January15</option>
+                <option value="February20">February20</option>
+                <option value="March30">March30</option>
+             </select>
+                 </div>
+            </div>
+            <div class="row">
+                <div class="col1">Job function:
+                </div>
+                <div class="col2">
+                    <div>
+                <input type="radio" id="function1" name="job" value="management">
+                <label for="function1">Campaign Management</label><br>
+                <input type="radio" id="function2" name="job" value="administration">
+                <label for="function2">CRM Administration</label><br>
+                <input type="radio" id="function3" name="job" value="deployment">
+                <label for="function3">Email Deployment</label><br>
+                 <input type="radio" id="function4" name="job" value="partner">
+                 <label for="function4">Partner</label><br>
+                 <input type="radio" id="function5" name="job" value="employee">
+                 <label for="function5">Employee</label><br>
+                    </div>
+                 </div>
+            </div>
+            <div class="row">
+                <div class="col1">
+                <label for="req">Dietary Requirements:</label>
+                </div>
+                <div class="col2">
+                <input type="text" id="req">
+                </div>
+            </div>
+            <div class="row">
+                 <div class="col1">
+                <label for="exp">Expectations:</label>
+                </div>
+                <div class="col2">
+                <textarea id="expectations" name="expectations" rows="15" cols="30"></textarea>
+                </div>
+             </div>
+             <div class="row">
+                 <input type="submit" name="sub" value="Submit">
+                </div>
+        </form>
+        </div>
+
+</body>
+</html>
